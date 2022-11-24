@@ -10,3 +10,5 @@ custom_config = r'--oem 3 --psm 6'
 
 text = pytesseract.image_to_string(img, lang='rus', config=custom_config)
 print(text)
+
+# https://github.com/UB-Mannheim/tesseract/wiki
